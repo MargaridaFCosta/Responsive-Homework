@@ -89,6 +89,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 15px;
 }
 .mail-me:hover {
   text-decoration: underline;
@@ -105,4 +106,33 @@ p {
 
 .contact-title {
   font-size: 48px;
+}
+
+@media (max-width: 576px) {
+  .name,
+  .title-page {
+    font-size: 48px;
+  }
+  .greetings,
+  .app-name {
+    font-size: 32px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .mail-me {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .projects {
+    margin-bottom: 25px;
+  }
+  .about-projects {
+    text-align: center;
+  }
+  .projects-links {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
 }
